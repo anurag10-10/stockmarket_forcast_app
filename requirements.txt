@@ -1,6 +1,6 @@
-streamlit==1.25.0
+streamlit
 numpy
-pandas==2.1.1
-requests==2.31.0
-plotly==5.15.0
-prophet==1.1.4
+pandas
+requests
+plotly
+prophet
