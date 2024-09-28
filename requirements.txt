@@ -3,5 +3,4 @@ numpy
 pandas
 requests
 plotly
-git+https://github.com/anurag10-10/prophet.git
-
+git+https://github.com/anurag10-10/prophet-custom.git
