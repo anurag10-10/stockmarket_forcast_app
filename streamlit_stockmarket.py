@@ -16,6 +16,7 @@ data = {
 stock_df = pd.DataFrame(data)
 
 # Streamlit app starts here
+# Title of the app
 st.title("Stock Price Data")
 
 # Select box for choosing stock from the list
