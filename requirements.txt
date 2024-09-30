@@ -1,13 +1,11 @@
 streamlit
-numpy # Downgrade to a version compatible with Prophet if necessary
+numpy==1.24.4  # Downgrade to a compatible version with Prophet
 pandas
 requests
 plotly
 yfinance
+Cython==0.29.36  # Required for Prophet
+setuptools>=42  # Ensure setuptools is up to date for building packages
+wheel  # Ensure wheel is available for building packages
+pystan==2.19.1.1  # Prophet depends on this version of pystan
 git+https://github.com/anurag10-10/prophet-custom.git@main#subdirectory=python
-
-# Additional dependencies for building Prophet
-setuptools>=42
-wheel
-cython>=0.29.24
-pystan==2.19.1.1  # Prophet requires pystan
