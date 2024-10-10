@@ -1,6 +1,6 @@
 streamlit
 numpy==1.24.4  # Downgrade to a compatible version with Prophet
-pandas
+pandas # for data manipulation 
 requests
 plotly
 yfinance
